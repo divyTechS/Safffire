@@ -1,0 +1,29 @@
+version: 1.0
+AppDir:
+  path: ./AppDir
+  app_info:
+    id: safffire
+    name: Safffire
+    icon: logo
+    version: "1.0"
+    exec: safffire
+    exec_args: ""
+  runtime:
+    env:
+      PYTHONHOME: usr
+      PYTHONPATH: usr/lib/python3.10
+  apt:
+    packages:
+      - python3
+      - python3-pyqt5
+      - python3-scapy
+      - python3-matplotlib
+  files:
+    include:
+      - main.py
+      - Orbitron.ttf
+      - suspicious_log.txt
+      - logo.png
+AppImage:
+  arch: x86_64
+  update-information: "gh-releases-zsync|YourName|Safffire|latest|Safffire-x86_64.AppImage.zsync"

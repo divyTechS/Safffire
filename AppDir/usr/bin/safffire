@@ -1,0 +1,4 @@
+#!/bin/bash
+HERE="$(dirname "$(readlink -f "$0")")"
+python3 "$HERE/../../../main.py"
+w

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Safffire
+Comment=Lightweight Packet Sniffer
+Exec=safffire
+Icon=logo
+Terminal=false
+Type=Application
+Categories=Network;Security;Utility;
